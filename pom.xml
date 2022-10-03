@@ -1,15 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>jfse</groupId>
-  <artifactId>kart-race-laps-main</artifactId>
+
+  <groupId>org.jesperancinha.game</groupId>
+  <artifactId>kart-race-parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>kart-race-laps-main</name>
+
+  <name>Kart Races::Parent</name>
   <packaging>pom</packaging>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <java.version>17</java.version>
+    <maven.compiler>3.10.1</maven.compiler>
+    <junit>4.13.2</junit>
+    <jmock.junit4>2.12.0</jmock.junit4>
+    <open.csv>5.7.0</open.csv>
+    <args4j.kohsuke>2.33</args4j.kohsuke>
+    <kart.race.laps.api>1.0.0-SNAPSHOT</kart.race.laps.api>
+    <kart.race.api>1.0.0-SNAPSHOT</kart.race.api>
+  </properties>
+
   <modules>
-    <module>kart-race-laps-api</module>
-    <module>kart-race-laps-app</module>
-    <module>kart-race-laps-csv</module>
+    <module>kart-race-api</module>
+    <module>kart-race-app</module>
+    <module>kart-race-csv</module>
   </modules>
 </project>

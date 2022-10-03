@@ -1,5 +1,7 @@
 ## Kart race laps
 
+Under construction...
+
 Here is a quick description on how to run this example:
 
 To build it and make the executable jar:
