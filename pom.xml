@@ -22,6 +22,8 @@
     <args4j.kohsuke>2.33</args4j.kohsuke>
     <kart.race.laps.api>1.0.0-SNAPSHOT</kart.race.laps.api>
     <kart.race.api>1.0.0-SNAPSHOT</kart.race.api>
+    <omni-coveragereporter-maven-plugin.version>0.3.0</omni-coveragereporter-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
   </properties>
 
   <modules>
@@ -35,12 +37,12 @@
       <plugin>
         <groupId>org.jesperancinha.plugins</groupId>
         <artifactId>omni-coveragereporter-maven-plugin</artifactId>
-        <version>0.3.0</version>
+        <version>${omni-coveragereporter-maven-plugin.version}</version>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.8</version>
+        <version>${jacoco-maven-plugin.version}</version>
         <executions>
           <execution>
             <goals>
