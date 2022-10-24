@@ -18,7 +18,7 @@
 
     <junit>4.13.2</junit>
     <jmock.junit4>2.12.0</jmock.junit4>
-    <open.csv>5.7.0</open.csv>
+    <open.csv>5.7.1</open.csv>
     <args4j.kohsuke>2.33</args4j.kohsuke>
     <kart.race.laps.api>1.0.0-SNAPSHOT</kart.race.laps.api>
     <kart.race.api>1.0.0-SNAPSHOT</kart.race.api>
