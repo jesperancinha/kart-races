@@ -22,7 +22,7 @@
     <args4j.kohsuke>2.33</args4j.kohsuke>
     <kart.race.laps.api>1.0.0-SNAPSHOT</kart.race.laps.api>
     <kart.race.api>1.0.0-SNAPSHOT</kart.race.api>
-    <omni-coveragereporter-maven-plugin.version>0.3.0</omni-coveragereporter-maven-plugin.version>
+    <omni-coveragereporter-maven-plugin.version>0.3.1</omni-coveragereporter-maven-plugin.version>
     <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
   </properties>
 
